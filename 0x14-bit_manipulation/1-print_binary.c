@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary that's equivalent
- * of a decimal num
- * @n: num to print in binary
+ * print_binary - prints the binary that's equivalent to
+ * of a decimal nubr
+ * @n: nubr to print in binary
  */
 void print_binary(unsigned long int n)
 {
