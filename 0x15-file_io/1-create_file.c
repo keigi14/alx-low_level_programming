@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * create_file - creates a file
- * @filename: filename.
- * @text_content: content writed in the file.
- *
- * Return: 1 if it success. -1 if it fails.
+ * create_file - creates a new file
+ * @filename: flname
+ * @text_content: content writed within the file.
+ * Return: 1 if it is success. -1 on failure.
  */
+
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
